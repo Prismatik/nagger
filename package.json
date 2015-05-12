@@ -1,0 +1,22 @@
+{
+  "name": "nagger",
+  "version": "1.0.0",
+  "description": "Something that annoys you when things are broken",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "monitoring"
+  ],
+  "author": "david@banham.id.au",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1.27",
+    "influx": "^3.4.0",
+    "lodash": "^3.8.0",
+    "parse-duration": "^0.1.1",
+    "request": "^2.55.0",
+    "required_env": "^1.0.0"
+  }
+}
