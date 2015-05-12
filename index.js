@@ -1,5 +1,4 @@
 var influx = require('influx');
-var nodemailer = require('nodemailer');
 var AWS = require('aws-sdk');
 var request = require('request');
 var parse = require('parse-duration');
